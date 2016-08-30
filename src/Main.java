@@ -38,7 +38,11 @@ public class Main {
 
         System.out.println( box );
         
-        //box.add( new Box(2) );
+        box.add( new Box(2) );
+        
+        box.add(box);
+        
+        System.out.println(box);
         
     }    
     
